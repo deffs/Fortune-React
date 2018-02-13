@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87BCF0DC670B541174653021 /* Pods_FortuneReact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EAF2C996BFDC7B2D96AD2A8 /* Pods_FortuneReact.framework */; };
+		CAFA12E41FF81F7200E533E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA12E31FF81F7200E533E7 /* AppDelegate.swift */; };
+		CAFA12E61FF81F7300E533E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA12E51FF81F7300E533E7 /* ViewController.swift */; };
+		CAFA12E91FF81F7300E533E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFA12E71FF81F7300E533E7 /* Main.storyboard */; };
+		CAFA12EB1FF81F7300E533E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFA12EA1FF81F7300E533E7 /* Assets.xcassets */; };
+		CAFA12EE1FF81F7300E533E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFA12EC1FF81F7300E533E7 /* LaunchScreen.storyboard */; };
+		CAFA12F61FF981E800E533E7 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA12F51FF981E800E533E7 /* Validator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EAF2C996BFDC7B2D96AD2A8 /* Pods_FortuneReact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FortuneReact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DC0E743B6C8D70FDA97313 /* Pods-FortuneReact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneReact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneReact/Pods-FortuneReact.debug.xcconfig"; sourceTree = "<group>"; };
+		A33C52691FD6955B019CFFE2 /* Pods-FortuneReact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FortuneReact.release.xcconfig"; path = "Pods/Target Support Files/Pods-FortuneReact/Pods-FortuneReact.release.xcconfig"; sourceTree = "<group>"; };
+		CAFA12E01FF81F7200E533E7 /* FortuneReact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneReact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFA12E31FF81F7200E533E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAFA12E51FF81F7300E533E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAFA12E81FF81F7300E533E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAFA12EA1FF81F7300E533E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAFA12ED1FF81F7300E533E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAFA12EF1FF81F7300E533E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFA12F51FF981E800E533E7 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAFA12DD1FF81F7200E533E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BCF0DC670B541174653021 /* Pods_FortuneReact.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F140F6A058B926796ACEE2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EAF2C996BFDC7B2D96AD2A8 /* Pods_FortuneReact.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C95F16E48DB39C86E803338 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61DC0E743B6C8D70FDA97313 /* Pods-FortuneReact.debug.xcconfig */,
+				A33C52691FD6955B019CFFE2 /* Pods-FortuneReact.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAFA12D71FF81F7200E533E7 = {
+			isa = PBXGroup;
+			children = (
+				CAFA12E21FF81F7200E533E7 /* FortuneReact */,
+				CAFA12E11FF81F7200E533E7 /* Products */,
+				9C95F16E48DB39C86E803338 /* Pods */,
+				6F140F6A058B926796ACEE2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAFA12E11FF81F7200E533E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA12E01FF81F7200E533E7 /* FortuneReact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAFA12E21FF81F7200E533E7 /* FortuneReact */ = {
+			isa = PBXGroup;
+			children = (
+				CAFA12E31FF81F7200E533E7 /* AppDelegate.swift */,
+				CAFA12E51FF81F7300E533E7 /* ViewController.swift */,
+				CAFA12F51FF981E800E533E7 /* Validator.swift */,
+				CAFA12E71FF81F7300E533E7 /* Main.storyboard */,
+				CAFA12EA1FF81F7300E533E7 /* Assets.xcassets */,
+				CAFA12EC1FF81F7300E533E7 /* LaunchScreen.storyboard */,
+				CAFA12EF1FF81F7300E533E7 /* Info.plist */,
+			);
+			path = FortuneReact;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAFA12DF1FF81F7200E533E7 /* FortuneReact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAFA12F21FF81F7300E533E7 /* Build configuration list for PBXNativeTarget "FortuneReact" */;
+			buildPhases = (
+				F29F6714EEF1FD31D886BD92 /* [CP] Check Pods Manifest.lock */,
+				CAFA12DC1FF81F7200E533E7 /* Sources */,
+				CAFA12DD1FF81F7200E533E7 /* Frameworks */,
+				CAFA12DE1FF81F7200E533E7 /* Resources */,
+				D2763EDC172932ACB66E454C /* [CP] Embed Pods Frameworks */,
+				69AE06C275EC939BE8E3F53D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneReact;
+			productName = FortuneReact;
+			productReference = CAFA12E01FF81F7200E533E7 /* FortuneReact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAFA12D81FF81F7200E533E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alex de France";
+				TargetAttributes = {
+					CAFA12DF1FF81F7200E533E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAFA12DB1FF81F7200E533E7 /* Build configuration list for PBXProject "FortuneReact" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAFA12D71FF81F7200E533E7;
+			productRefGroup = CAFA12E11FF81F7200E533E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAFA12DF1FF81F7200E533E7 /* FortuneReact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAFA12DE1FF81F7200E533E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFA12EE1FF81F7300E533E7 /* LaunchScreen.storyboard in Resources */,
+				CAFA12EB1FF81F7300E533E7 /* Assets.xcassets in Resources */,
+				CAFA12E91FF81F7300E533E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69AE06C275EC939BE8E3F53D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneReact/Pods-FortuneReact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2763EDC172932ACB66E454C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FortuneReact/Pods-FortuneReact-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FortuneReact/Pods-FortuneReact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29F6714EEF1FD31D886BD92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FortuneReact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAFA12DC1FF81F7200E533E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFA12E61FF81F7300E533E7 /* ViewController.swift in Sources */,
+				CAFA12F61FF981E800E533E7 /* Validator.swift in Sources */,
+				CAFA12E41FF81F7200E533E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAFA12E71FF81F7300E533E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFA12E81FF81F7300E533E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAFA12EC1FF81F7300E533E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAFA12ED1FF81F7300E533E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAFA12F01FF81F7300E533E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAFA12F11FF81F7300E533E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAFA12F31FF81F7300E533E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DC0E743B6C8D70FDA97313 /* Pods-FortuneReact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PST2WR7437;
+				INFOPLIST_FILE = FortuneReact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swifty.defrance.react.FortuneReact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAFA12F41FF81F7300E533E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A33C52691FD6955B019CFFE2 /* Pods-FortuneReact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PST2WR7437;
+				INFOPLIST_FILE = FortuneReact/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = swifty.defrance.react.FortuneReact;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAFA12DB1FF81F7200E533E7 /* Build configuration list for PBXProject "FortuneReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFA12F01FF81F7300E533E7 /* Debug */,
+				CAFA12F11FF81F7300E533E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAFA12F21FF81F7300E533E7 /* Build configuration list for PBXNativeTarget "FortuneReact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAFA12F31FF81F7300E533E7 /* Debug */,
+				CAFA12F41FF81F7300E533E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAFA12D81FF81F7200E533E7 /* Project object */;
+}

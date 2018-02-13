@@ -1,0 +1,6 @@
+framework module Pods_FortuneReact {
+  umbrella header "Pods-FortuneReact-umbrella.h"
+
+  export *
+  module * { export * }
+}
